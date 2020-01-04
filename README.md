@@ -2,6 +2,33 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
+Proyecto guiado por:
+
+https://www.youtube.com/watch?v=47UW2U50TDA
+
+
+## Prerrequisitos
+
+NodeJs, TypeScript y Angular CLI
+
+## Instalación
+
+1- ng new ng-admin-lte
+
+2- Descargar AdminLTE de https://adminlte.io/ 
+
+3- Copiar carpetas 'dist' y 'plugins' dentro de carpeta /assets
+
+4- Copiar código js y css desde starter.html del AdminLTE a nuestro archivo index.html
+
+5- Revisar la ruta js y css redireccionando a la carpeta assets del proyecto creado
+
+6- Generar componentes Header, Menu, Content, Footer y Setting
+
+7- Copiar el código html que corresponde a cada componente desde starter.html
+
+8- Llamar a cada componente en app.component.html
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
