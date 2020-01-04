@@ -19,7 +19,7 @@ NodeJs, TypeScript y Angular CLI
 
 3- Copiar carpetas 'dist' y 'plugins' dentro de carpeta /assets
 
-4- Copiar código js y css desde starter.html del AdminLTE a nuestro archivo index.html
+4- Copiar código js y css desde starter.html del AdminLTE a nuestro archivo starter.html
 
 5- Revisar la ruta js y css redireccionando a la carpeta assets del proyecto creado
 
