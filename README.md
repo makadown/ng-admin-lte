@@ -15,19 +15,28 @@ NodeJs, TypeScript y Angular CLI
 
 1- ng new ng-admin-lte
 
-2- Descargar AdminLTE de https://adminlte.io/ 
+2- npm install admin-lte@^3.0 --save
 
-3- Copiar carpetas 'dist' y 'plugins' dentro de carpeta /assets
+3- Agregar en angular.json
 
-4- Copiar código js y css desde starter.html del AdminLTE a nuestro archivo starter.html
+``` json
+            "styles": [
+              "src/styles.css",
+              "node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css",
+              "node_modules/admin-lte/dist/css/adminlte.min.css"
+            ],
+            "scripts": [
+              "node_modules/admin-lte/plugins/jquery/jquery.min.js",
+              "node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "node_modules/admin-lte/dist/js/adminlte.min.js"
+            ]
+```
 
-5- Revisar la ruta js y css redireccionando a la carpeta assets del proyecto creado
+4- Generar componentes Content, ControlSidebar (setting), Footer, MainSidebar y Navbar (menu)
 
-6- Generar componentes Header, Menu, Content, Footer y Setting
+5- Copiar el código html que corresponde a cada componente desde starter.html
 
-7- Copiar el código html que corresponde a cada componente desde starter.html
-
-8- Llamar a cada componente en app.component.html
+6- Llamar a cada componente en app.component.html
 
 ## Development server
 
